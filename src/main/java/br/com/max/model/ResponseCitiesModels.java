@@ -1,4 +1,4 @@
-package br.com.max.model;
+package main.java.br.com.max.model;
 
 import java.util.List;
 

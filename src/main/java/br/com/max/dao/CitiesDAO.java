@@ -1,8 +1,8 @@
-package br.com.max.dao;
+package main.java.br.com.max.dao;
 
 import java.util.List;
 
-import br.com.max.model.CitiesModel;
+import main.java.br.com.max.model.CitiesModel;
 
 public interface CitiesDAO {
 

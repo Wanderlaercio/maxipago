@@ -1,4 +1,4 @@
-package br.com.max.jdbc;
+package main.java.br.com.max.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +17,7 @@ public class ConnectionFactory {
 		Connection connection = null;
 
 		try {
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/space", "root", "88030388");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/maxipago", "root", "1234");
 
 		} catch (SQLException e) {
 			e.printStackTrace();

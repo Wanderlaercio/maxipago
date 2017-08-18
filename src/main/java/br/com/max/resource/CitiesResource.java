@@ -1,4 +1,4 @@
-package br.com.max.resource;
+package main.java.br.com.max.resource;
 
 import java.io.StringWriter;
 import java.util.ArrayList;
@@ -18,10 +18,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.max.dao.CitiesDAOImpl;
-import br.com.max.model.CitiesModel;
-import br.com.max.model.ResponseCitiesModel;
-import br.com.max.model.ResponseCitiesModels;
+import main.java.br.com.max.dao.CitiesDAOImpl;
+import main.java.br.com.max.model.CitiesModel;
+import main.java.br.com.max.model.ResponseCitiesModel;
+import main.java.br.com.max.model.ResponseCitiesModels;
+
+
 
 @RestController
 public class CitiesResource {

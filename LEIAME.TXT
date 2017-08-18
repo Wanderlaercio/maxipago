@@ -1,1 +1,11 @@
+Para subir a aplicação basta executar a classe MaxipagoApplication.java
+-o Servidor será inicializado utilizando Spring Boot
+-o caminho é http://localhost:8080/cities/{json ou xml}/{km ou mi}
+-Projeto utiliza Maven
+-config em pom.xml que gera um war na pasta TARGET quando executa comando "mvn clean install"
 
+exemplo de chamada
+-http://localhost:8080/cities/json/km
+retorna em JSON utilizando medida em KM
+-http://localhost:8080/cities/xml/mi
+retorna em XML utilizando medida em Milhas

@@ -1,4 +1,4 @@
-package br.com.max.dao;
+package main.java.br.com.max.dao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -7,8 +7,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.max.jdbc.ConnectionFactory;
-import br.com.max.model.CitiesModel;
+import main.java.br.com.max.jdbc.ConnectionFactory;
+import main.java.br.com.max.model.CitiesModel;
+
+
 
 public class CitiesDAOImpl implements CitiesDAO {
 
