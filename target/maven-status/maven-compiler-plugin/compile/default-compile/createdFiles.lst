@@ -1,0 +1,8 @@
+br/com/max/resource/CitiesResource.class
+br/com/max/model/ResponseCitiesModels.class
+br/com/max/MaxipagoApplication.class
+br/com/max/model/ResponseCitiesModel.class
+br/com/max/model/CitiesModel.class
+br/com/max/dao/CitiesDAO.class
+br/com/max/jdbc/ConnectionFactory.class
+br/com/max/dao/CitiesDAOImpl.class
